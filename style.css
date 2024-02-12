@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(46, 46, 46);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 80vh;
+    margin: 50px 20rem;
+    background-color: rgb(144, 148, 161);
+}
+
+.header{
+    margin: 20px;
+    width: 50vw;
+    position: fixed;
+    bottom: 75vh;
+}
+
+#taskInput{
+    padding: 4px;
+    width: 20rem;
+}
+
+#addTask{
+    margin-left: 50px;
+    padding: 4px;
+    width: 5rem;
+    background-color: #7fbff3;
+    font-size: 15px;
+}
+
+li{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center ;
+    margin-bottom: 10px;
+}
+.listContainer{
+    margin-top: 50px;
+    border: 1px solid black;
+    height: 55vh;
+    overflow-y: auto;
+}
